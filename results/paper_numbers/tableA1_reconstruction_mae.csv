@@ -1,0 +1,13 @@
+dataset,classifier,baseline,uniform,adaptive_feature,adaptive_feature_reversed,bounded_inverse_feature
+PTB-XL,KNN,51.77,106.75,103.24,105.7,106.33
+PTB-XL,NB,39.07,103.67,98.74,103.77,104.35
+PTB-XL,RF,102.7,106.41,106.2,91.97,105.61
+PTB-XL,LR,109.39,105.32,103.36,103.65,105.74
+Chapman-Native,KNN,50.38,99.68,102.42,94.42,100.8
+Chapman-Native,NB,50.6,99.55,97.01,94.49,99.64
+Chapman-Native,RF,101.37,101.33,101.08,73.21,101.16
+Chapman-Native,LR,102.11,98.71,98.55,99.01,100.48
+Chapman-Matched,KNN,43.23,79.27,75.26,78.25,74.36
+Chapman-Matched,NB,47.83,79.07,78.73,70.85,78.34
+Chapman-Matched,RF,77.79,80.91,80.38,64.18,81.75
+Chapman-Matched,LR,82.12,82.12,80.99,77.29,80.64

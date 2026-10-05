@@ -1,0 +1,255 @@
+{
+  "section_5_1": {
+    "baseline_spread_pp": 20.5,
+    "knn_baseline_pct": [
+      61.9,
+      70.2
+    ],
+    "rf_baseline_pct": [
+      56.7,
+      57.4
+    ],
+    "eps1_max_dev_pp": 0.6,
+    "grid_max_dev_pp": 0.9,
+    "n_tests": 252,
+    "max_abs_d": 0.95,
+    "max_abs_diff_pp": 1.3,
+    "within_cell_sig": 3,
+    "within_cell_favor_uniform": 2,
+    "within_cell_favor_rule": 1,
+    "family_sig": 1,
+    "family_hits": [
+      {
+        "dataset": "ptbxl",
+        "classifier": "knn",
+        "epsilon": 0.5,
+        "rule": "bounded_inverse_feature",
+        "diff": 0.00873,
+        "p": 0.00012,
+        "d": 0.85656
+      }
+    ],
+    "knn_lira_auc": [
+      0.69,
+      0.79
+    ],
+    "knn_tpr_by_dataset": {
+      "ptbxl": 0.148,
+      "chapman_native": 0.093,
+      "chapman_matched": 0.13
+    },
+    "knn_tpr_times_chance": [
+      93,
+      148
+    ],
+    "knn_dp_tpr_ptbxl": 0.002,
+    "knn_minority_base_pct": [
+      95.5,
+      87.3,
+      95.5
+    ],
+    "rf_minority_base_pct": [
+      90.8,
+      91.5,
+      89.3
+    ],
+    "majority_base_pct": [
+      58.1,
+      64.8
+    ],
+    "minority_gap_pp": [
+      24,
+      37
+    ],
+    "perclass_dp_max_dev_pp": 2.1
+  },
+  "section_5_2": {
+    "floor": {
+      "PTB-XL": 9.58,
+      "Chapman-Native": 12.51,
+      "Chapman-Matched": 12.09
+    },
+    "floor_max_sd": 0.32,
+    "floor_n_features": [
+      60
+    ],
+    "three_rule_ci_overlap_failures": [],
+    "reversed_separates": [
+      [
+        "ptbxl",
+        "random_forest",
+        "lower"
+      ],
+      [
+        "chapman_native",
+        "naive_bayes",
+        "lower"
+      ],
+      [
+        "chapman_native",
+        "random_forest",
+        "lower"
+      ],
+      [
+        "chapman_matched",
+        "naive_bayes",
+        "lower"
+      ],
+      [
+        "chapman_matched",
+        "random_forest",
+        "lower"
+      ],
+      [
+        "chapman_matched",
+        "logreg",
+        "lower"
+      ]
+    ],
+    "nb_ptbxl_baseline": 39.07,
+    "nb_ptbxl_times_floor": 4.1,
+    "eps1_mae_range": [
+      64,
+      107
+    ],
+    "eps1_times_floor": [
+      5.3,
+      11.1
+    ]
+  },
+  "section_5_3": {
+    "max_abs_adv_pp": 8.2,
+    "max_pos_adv_pp": 4.0,
+    "max_pos_cells": [
+      [
+        "chapman_native",
+        "age",
+        "logreg"
+      ],
+      [
+        "chapman_native",
+        "age",
+        "naive_bayes"
+      ]
+    ],
+    "most_negative_pp": -8.2,
+    "most_negative_cell": [
+      "chapman_native",
+      "sex",
+      "random_forest",
+      "adaptive_feature_reversed"
+    ],
+    "spread_by_classifier_pp": {
+      "knn": 7.9,
+      "logreg": 10.4,
+      "naive_bayes": 11.3,
+      "random_forest": 10.5
+    },
+    "eps1_three_rules_max_abs_d": 0.49,
+    "eps1_three_rules_within_cell_sig": 0,
+    "family_alpha": 6.613756613756614e-05,
+    "reversed_grid_max_drop_pp": 4.8,
+    "reversed_grid_max_abs_d": 2.5,
+    "reversed_grid_family_sig": 17,
+    "adaptive_grid_family_hits": [
+      {
+        "dataset": "chapman_native",
+        "attribute": "sex",
+        "classifier": "logreg",
+        "epsilon": 2.0,
+        "diff_pp": 2.05,
+        "d": 1.04
+      },
+      {
+        "dataset": "chapman_native",
+        "attribute": "sex",
+        "classifier": "logreg",
+        "epsilon": 3.0,
+        "diff_pp": 2.35,
+        "d": 1.31
+      },
+      {
+        "dataset": "chapman_native",
+        "attribute": "sex",
+        "classifier": "logreg",
+        "epsilon": 5.0,
+        "diff_pp": 2.64,
+        "d": 1.48
+      }
+    ]
+  },
+  "section_5_4": {
+    "uniform_param_fitters_auroc": [
+      0.911,
+      0.937
+    ],
+    "uniform_max_gap_to_baseline": 0.064,
+    "adapt_minus_uniform_max_abs": 0.005,
+    "bounded_minus_uniform_max_abs": 0.012,
+    "of_18_family_sig": 9,
+    "of_18_largest": -0.012,
+    "any_favors_adaptive_rule": false,
+    "reversed_cost": [
+      0.04,
+      0.21
+    ],
+    "reversed_abs_d": [
+      4.1,
+      81
+    ],
+    "reversed_all_family_sig": true,
+    "knn_collapse_range": [
+      0.44,
+      0.62
+    ],
+    "knn_three_rules_max_abs_d": 0.31,
+    "knn_reversed_eps1": [
+      0.7,
+      0.77
+    ],
+    "knn_reversed_eps5": [
+      0.88,
+      0.93
+    ],
+    "knn_reversed_top_cells": "20 of 21",
+    "knn_lift_exact": [
+      0.1797,
+      0.145,
+      0.1852
+    ],
+    "knn_lift_max_p": 0.00042,
+    "knn_reversed_abs_d_eps1": [
+      0.89,
+      1.1
+    ]
+  },
+  "section_5_5": {
+    "baseline_cells": 24,
+    "gap_adv_rho": 0.884,
+    "gap_adv_p": 1e-08,
+    "gap_adv_rho_minority": 0.881,
+    "gap_adv_rho_majority": 0.832,
+    "top_advantage_cells_all_minority": true,
+    "dp_rho": -0.28,
+    "dp_p": 0.18,
+    "adaptive_noise_ratio_eps1": {
+      "ptbxl": 1.4,
+      "chapman_native": 1.461,
+      "chapman_matched": 1.461
+    },
+    "snr_ratio_top": {
+      "ptbxl": 1.015,
+      "chapman_native": 1.015,
+      "chapman_matched": 1.015
+    },
+    "snr_ratio_all": {
+      "ptbxl": 1.015,
+      "chapman_native": 1.015,
+      "chapman_matched": 1.015
+    },
+    "variance_reliance_rho_rf_nb": [
+      0.44,
+      0.67
+    ]
+  }
+}

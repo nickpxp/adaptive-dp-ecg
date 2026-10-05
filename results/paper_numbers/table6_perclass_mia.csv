@@ -1,0 +1,7 @@
+dataset,classifier,base_min,base_maj,dp_min,dp_maj
+PTB-XL,KNN,95.5,58.1,50.3,49.8
+PTB-XL,RF,90.8,59.4,50.5,50.3
+Chapman-Native,KNN,87.3,63.0,50.8,50.1
+Chapman-Native,RF,91.5,64.8,49.9,50.0
+Chapman-Matched,KNN,95.5,58.6,50.2,50.0
+Chapman-Matched,RF,89.3,61.4,49.5,50.3

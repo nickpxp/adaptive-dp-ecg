@@ -1,0 +1,13 @@
+dataset,classifier,base_auc,dp_auc,base_tpr,dp_tpr,base_tpr_1pct,dp_tpr_1pct
+PTB-XL,KNN,0.694,0.497,0.148,0.002,0.206,0.011
+PTB-XL,NB,0.501,0.502,0.002,0.001,0.013,0.01
+PTB-XL,RF,0.647,0.505,0.004,0.002,0.024,0.013
+PTB-XL,LR,0.509,0.499,0.002,0.002,0.012,0.012
+Chapman-Native,KNN,0.789,0.503,0.093,0.002,0.168,0.013
+Chapman-Native,NB,0.502,0.497,0.002,0.001,0.013,0.011
+Chapman-Native,RF,0.729,0.501,0.003,0.002,0.017,0.011
+Chapman-Native,LR,0.506,0.499,0.002,0.002,0.012,0.011
+Chapman-Matched,KNN,0.698,0.498,0.13,0.002,0.174,0.011
+Chapman-Matched,NB,0.496,0.506,0.001,0.002,0.011,0.012
+Chapman-Matched,RF,0.657,0.503,0.004,0.002,0.023,0.011
+Chapman-Matched,LR,0.496,0.497,0.002,0.002,0.012,0.011

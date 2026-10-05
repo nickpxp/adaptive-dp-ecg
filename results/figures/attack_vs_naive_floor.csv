@@ -1,0 +1,13 @@
+dataset,classifier,nonprivate_mae,dp_mae_eps1,naive_floor,nonprivate_x_floor,dp_x_floor
+PTB-XL,KNN,51.77,105.5,9.58,5.41,11.02
+PTB-XL,NB,39.07,102.63,9.58,4.08,10.72
+PTB-XL,RF,102.7,102.55,9.58,10.72,10.71
+PTB-XL,LR,109.39,104.52,9.58,11.42,10.91
+Chapman-Native,KNN,50.38,99.33,12.51,4.03,7.94
+Chapman-Native,NB,50.6,97.67,12.51,4.04,7.81
+Chapman-Native,RF,101.37,94.19,12.51,8.1,7.53
+Chapman-Native,LR,102.11,99.19,12.51,8.16,7.93
+Chapman-Matched,KNN,43.23,76.78,12.09,3.57,6.35
+Chapman-Matched,NB,47.83,76.75,12.09,3.96,6.35
+Chapman-Matched,RF,77.79,76.8,12.09,6.43,6.35
+Chapman-Matched,LR,82.12,80.26,12.09,6.79,6.64

@@ -1,0 +1,4 @@
+dataset,inflation_ratio_c1_c0,cross_class_rho,inflation_variance_rho,adapt_over_uniform,rf_importance_rho,top5_overlap,top10_overlap
+PTB-XL,0.99,1.0,0.91,1.39,0.88,0.8,0.8
+Chapman-Native,0.997,1.0,0.8,1.46,0.89,0.8,1.0
+Chapman-Matched,0.987,1.0,0.8,1.46,0.92,0.8,1.0
