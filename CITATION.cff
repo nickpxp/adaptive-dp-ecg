@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "adaptive-dp-ecg: reproduction code for 'A fixed privacy budget does not fix the utility cost of noise allocation'"
+type: software
+authors:
+  - family-names: Pierrelouis
+    given-names: Nick
+    affiliation: "Marymount University"
+  - family-names: Liu
+    given-names: Michelle
+    affiliation: "Marymount University"
+version: 1.0.0
+date-released: 2026-10-05
+license: MIT
+keywords:
+  - differential privacy
+  - membership inference
+  - electrocardiogram
+  - privacy-utility trade-off

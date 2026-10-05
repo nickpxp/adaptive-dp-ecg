@@ -1,0 +1,5 @@
+# only needed for notebooks/0*_preprocessing.ipynb (raw PhysioNet -> feature CSVs)
+wfdb>=4.1
+neurokit2>=0.2
+tqdm>=4.65
+jupyter
